@@ -1,62 +1,39 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title> Mae Carol Jamison</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-        </head>
-    <body> 
-        <div> 
-        <h1>Mae Carol Jemison </h1>
+img{
+    width: 500px;;
+    height: 500px;
+    display: block;
+    margin:auto;
+    border-radius: 50%;
+    border: 5px solid rgb(82, 82, 177);
 
-        <p> <span>(1956--Present)</span></p>
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0%;
 
-        <img src="https://cdn.mos.cms.futurecdn.net/hk2QfJCsYUxDW9cEihGLMo-970-80.jpg" 
-        alt="Picture of Mae Carol Jemison in Spacecraft">
+}
+p{
+    text-align: center;
+    margin-left: 20px;
+}
+span {
+    font-weight: bolder;
 
-        <p id="caption"> As a doctor, engineer, and NASA astronaut, Mae Jemison has always reached 
-            for the stars. In 1992, Jemison became the first African American 
-            woman to travel in space. She has also written several books and 
-            appeared on many televison programs including an episode of 
-            Start Trek: The Next Generation. In addition to her many awards, 
-            Jemison has been inducted into the National Women's Hall of 
-            Fame and the International Space Hall of Fame. </p>
+}
+body {
+    background-image: url("https://www.nps.gov/subjects/nightskies/images/GLOBELM6.jpg?maxwidth=1200&maxheight=1200&autorotate=false");
+     padding: 30px;
+     background-repeat: none;
 
-        <h2>Childhood </h2>
-        <ul>
-            <li> Born in Decatur, Alabama </li>
-            <li>She Moved to Chicago at the age of 3 </li>
-            <li> Her father was a maintance worker and her
-                 mother and Elementary School Teacher</li>
-    </ul>
-    <h2> Education </h2>
-    <ul>
-        <li> She attended Stanford University on a full scholarship at 
-            the age of 16 </li>
-            <li> She studied Chemical Engineering and African American Studies
-                 at Stanford </li>
-                 <li> She proceeded to get her doctorate from Cornell University </li>
-    </ul>
-    <h2> Career</h2>
-    <ul> 
-        <li> She stater The Jemison Group, a consulting company that 
-            encourages sciience, technology and social change </li>
-            <li> She trained with NASA and she received her first mission on 
-                September 28, 1989 </li>
-                <li>On September 12, 1992 Jemison and six other astronauts 
-                    went into space on the space shuttle Endeavor.  </li> 
-    </ul>
-    <h2>Fun Facts </h2>
-    <ul>
-        <li>
-            She Speaks Russian, Japanese and Swahili </li>
-            <li> She appeared in an episode of Star Treck: 
-                Next Generation  </li>
-            <li> She was the first American woman to go to outer 
-                space in 1992 </li>
-                <li> She went on to write her first book in 2001,
-                     <em> Find Where the Wind Goes</em> which was a
-                      children's book about her life</li>
-    </ul>
-    </div>
-    </body>
-</html>
+}
+div {
+    background-color: rgba(255,255,255,.7);
+    padding: 30px;
+}
+
+#caption{
+    width: 80%;
+    margin-left: 12%;
+    text-align: left;
+}
